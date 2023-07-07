@@ -1,0 +1,130 @@
+.header {
+    background-color: #2cae78;
+}
+p,span,a {
+    font-family: 'Montserrat', sans-serif;
+}
+.input-group {
+    font-family: 'Montserrat', sans-serif;
+}
+.logo {
+    max-height: 200px;
+}
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.side-menu {
+    width: 190px;
+    height: 100%;
+    position: fixed;
+    overflow-x: hidden;
+    padding-top: 20px;
+    background-color: #9dffbb;
+    padding-left: 1em;
+}
+
+.side-menu a {
+    display: block;
+    color: black;
+    text-decoration: none;
+}
+
+.side-menu a:hover {
+    background-color: #ddd;
+}
+
+.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.image {
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+}
+.image img {
+    max-width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+li {
+    list-style: none;
+}
+
+.cart {
+    width: 50px;
+    height: 50px;
+}
+
+.items {
+    background: none repeat scroll 0 0;
+    display: flex;
+    flex-flow: row wrap;
+    position: relative;
+    width: auto;
+}
+
+.list-item {
+    position: relative;
+    background: none repeat scroll 0 0;
+    flex: 1 1 18%;
+    height: auto;
+    margin: 4px;
+    padding: 20px 0;
+    width: auto;
+}
+
+.row {
+    align-items: baseline;
+}
+
+.list-item {
+    position: relative;
+    background: none repeat scroll 0 0;
+    flex: 1 1 18%;
+    height: auto;
+    margin: 4px;
+    padding: 20px 0;
+    width: auto;
+}
+
+.fixed-bottom {
+    margin-left: 95%;
+}
+
+/* For screens smaller than 768px */
+@media (max-width: 767px) {
+    .items {
+        display: block;
+        
+    }
+    .item-row {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .list-item {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
+
+@media (min-width: 1400px) {
+    .items {
+        max-width: 1075px !important;
+    }
+}
+
+
+
+
+
+
